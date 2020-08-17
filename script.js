@@ -31,7 +31,7 @@ const stopVideo = () => {
 refs.video.addEventListener("click", toggleVideoStatus);
 refs.video.addEventListener("play", updatePlayIcon);
 refs.video.addEventListener("pause", updatePlayIcon);
-// refs.video.addEventListener("timeupdate", setProgress);
+refs.video.addEventListener("timeupdate", setProgress);
 
 refs.play.addEventListener("click", toggleVideoStatus);
 
